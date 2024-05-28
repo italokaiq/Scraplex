@@ -1,0 +1,12 @@
+.container {
+    margin-top: auto;
+    background-color: var(--color-pink);
+  
+    .container__box {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+  
+      padding: 2rem 7.5rem;
+    }
+  }
