@@ -1,23 +1,23 @@
 %buttonDefault {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  
-    color: var(--color-pink);
-    background-color: transparent;
-    padding-inline: 20px;
-  
-    font-family: var(--font-primary);
-    font-size: 1.125rem;
-    font-weight: 800;
-  
-    border-radius: 16rem;
-    border: 1px solid var(--color-pink);
-  
-    cursor: pointer;
-  }
-  
-  .btn {
-    @extend %buttonDefault;
-    padding-block: 1rem;
-  }
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  color: var(--color-pink);
+  background-color: transparent;
+  padding-inline: 20px;
+
+  font-family: var(--font-primary);
+  font-size: 1.125rem;
+  font-weight: 800;
+
+  border-radius: 16rem;
+  border: 1px solid var(--color-pink);
+
+  cursor: pointer;
+}
+
+.btn {
+  @extend %buttonDefault;
+  padding-block: 1rem;
+}

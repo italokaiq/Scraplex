@@ -1,16 +1,16 @@
 .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem 7.5rem;
+
+  img {
+    height: 40px;
+  }
+
+  .container__logout {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    padding: 2rem 7.5rem;
-  
-    img {
-      height: 40px;
-    }
-  
-    .container__logout {
-      display: flex;
-      align-items: center;
-      gap: 2rem;
-    }
+    gap: 2rem;
   }
+}

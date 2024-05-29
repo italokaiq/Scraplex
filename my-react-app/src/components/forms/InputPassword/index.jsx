@@ -1,9 +1,9 @@
+/* eslint-disable react/display-name */
 /* eslint-disable react/prop-types */
 import { forwardRef, useState } from "react";
 import { FaRegEyeSlash, FaRegEye } from "react-icons/fa";
 import style from "./style.module.scss";
 
-// eslint-disable-next-line react/display-name
 export const InputPassword = forwardRef(({ label, error, ...rest }, ref) => {
   const [isHidden, setIsHidden] = useState(false);
   const type = isHidden ? "text" : "password";

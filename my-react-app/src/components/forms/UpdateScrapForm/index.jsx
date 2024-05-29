@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 import { useContext, useEffect, useState } from "react";
 import { useForm } from "react-hook-form";
 import { ScrapContext } from "../../../providers";
@@ -16,7 +17,6 @@ export const UpdateScrapForm = () => {
     if (!editScrap) {
       navigate("/dashboard");
     }
-    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [editScrap]);
 
   const submit = (payload) => {

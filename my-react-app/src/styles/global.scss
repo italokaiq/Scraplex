@@ -1,15 +1,15 @@
 :root {
-    --font-primary: "Inter", sans-serif;
-    --color-pink: #ec1b90;
-    --color-lightblue: #d4dded;
-    --color-black: #000;
-    --color-white: #fff;
-    --color-red: red;
-  }
-  
-  #root {
-    width: 100%;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-  }
+  --font-primary: "Inter", sans-serif;
+  --color-pink: #ec1b90;
+  --color-lightblue: #d4dded;
+  --color-black: #000;
+  --color-white: #fff;
+  --color-red: red;
+}
+
+#root {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}

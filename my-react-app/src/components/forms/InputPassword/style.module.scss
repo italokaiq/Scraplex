@@ -1,16 +1,14 @@
-
 .inputBox {
-    .inputGrid {
-      position: relative;
-    }
-  
-    button {
-      position: absolute;
-      top: 1.75rem;;
-      right: 0.5rem;
-  
-      background-color: transparent;
-      border: none;
-    }
+  .inputGrid {
+    position: relative;
   }
-  
+
+  button {
+    position: absolute;
+    top: 1.75rem;;
+    right: 0.5rem;
+
+    background-color: transparent;
+    border: none;
+  }
+}

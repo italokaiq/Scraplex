@@ -1,7 +1,7 @@
+/* eslint-disable react/display-name */
 /* eslint-disable react/prop-types */
 import { forwardRef } from "react";
 
-// eslint-disable-next-line react/display-name, react/prop-types
 export const Input = forwardRef(({ label, error, ...rest }, ref) => {
   return (
     <div>
