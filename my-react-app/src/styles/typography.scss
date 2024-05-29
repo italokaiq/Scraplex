@@ -1,0 +1,39 @@
+@mixin defaultTypography(
+  $font-size: 2.125rem,
+  $color: var(--color-black),
+  $font-weight: 800
+) {
+  color: $color;
+  font-family: var(--font-primary);
+  font-size: $font-size;
+  font-weight: $font-weight;
+}
+
+.title {
+  @include defaultTypography();
+
+  &.center {
+    text-align: center;
+  }
+}
+
+.label {
+  @include defaultTypography($font-size: 1.125rem);
+}
+
+.paragraph {
+  @include defaultTypography($font-size: 1.125rem, $font-weight: 400);
+
+  &.white {
+    color: var(--color-white);
+  }
+
+  &.error {
+    color: var(--color-red);
+  }
+}
+
+.link {
+  @include defaultTypography($font-size: 1.125rem, $color: var(--color-pink));
+  text-decoration: none;
+}
