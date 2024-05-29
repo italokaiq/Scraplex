@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import { createContext, useContext, useEffect, useState } from "react";
 import { api } from "../services";
 import { UserContext } from "./UserContext";
@@ -6,7 +7,6 @@ import { useNavigate } from "react-router-dom";
 
 export const ScrapContext = createContext({});
 
-// eslint-disable-next-line react/prop-types
 export const ScrapProvider = ({ children }) => {
   const { user, token } = useContext(UserContext);
   const [scrapList, setScrapList] = useState([]);

@@ -2,9 +2,9 @@ import { useContext } from "react";
 import { Spinner } from "react-loading-io";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import { UserContext } from "./providers";
 import { RouterMain } from "./routes/RouterMain";
 import "./styles/index.scss";
+import { UserContext } from "./providers";
 
 const App = () => {
   const { loading } = useContext(UserContext);

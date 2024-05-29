@@ -1,4 +1,4 @@
-import { ScrapContext } from "./ScrapContext";
-import { UserContext } from "./UserContext";
+import { ScrapContext, ScrapProvider } from "./ScrapContext";
+import { UserContext, UserProvider } from "./UserContext";
 
-export { ScrapContext, UserContext };
+export { ScrapContext, ScrapProvider, UserContext, UserProvider };
